@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/CascadiaCode.woff2) format('woff2');
+}
+
+@tailwind base;
+
+@layer base {
+  body {
+    @apply text-gray-700;
+  } 
+}
+
+@tailwind components;
+@tailwind utilities;
