@@ -30,6 +30,7 @@ export default function Home () {
               <p className='mb-8'>+16 años desarrollando aplicaciones web.</p>
               <div className='flex items-center gap-x-6 md:gap-x-8'>
                 <a href='mailto:albertesc@gmail.com' className='bg-yellow-400 px-6 py-2 rounded inline-block' rel='noopener noreferrer' target='_blank'>¿Hablamos?</a>
+                <a href='./albertescamilla.pdf' className='bg-blue-500 px-6 py-2 rounded inline-block text-white' rel='noopener noreferrer' download target='_blank'>Descargar CV</a>
                 <a href='https://github.com/albertesc' className='block' rel='noopener noreferrer' target='_blank'><svg viewBox='0 0 21 23' width={21} height={23} stroke='currentColor' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.371 3.371 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.442 5.442 0 0 0 20 4.77 5.072 5.072 0 0 0 19.91 1C19.397-.198 18.73.65 16 2.48a13.384 13.384 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.072 5.072 0 0 0 5 4.77a5.441 5.441 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.372 3.372 0 0 0 9 18.13V22' transform='translate(-1.5 .055)' /></svg></a>
               </div>
               <p className='mt-8 md:mt-20 mb-4 text-sm'>Construyendo la web con:</p>
@@ -65,7 +66,9 @@ export default function Home () {
               para el diseño. Una cosa que me obsesiona siempre es tener el código limpio y ordenado.
             </p>
             <p className='mb-16'>
-              Si quieres ampliar información puedes visitar mi LinkedIn aquí 👉 <a href='http://linkedin/in/albertescam' className='text-sky-500' rel='noopener noreferrer'>/in/albertescam</a>
+              Si quieres ampliar información puedes visitar mi LinkedIn aquí 👉
+              <a href='http://linkedin/in/albertescam' className='text-sky-500 inline-block mr-1' rel='noopener noreferrer'>/in/albertescam</a>
+              o descargar mi curriculum aquí 👉 <a href='/albertescamilla.pdf' className='text-sky-500' rel='noopener noreferrer'>albertescamilla.pdf</a>
             </p>
             <div className='flex items-center mb-10'>
               <span className='w-5 h-5 border-2 border-gray-600 rounded flex-none mr-8 rotate-45' />
@@ -168,7 +171,7 @@ export default function Home () {
 
         <footer className='py-6 md:py-16'>
           <p className='text-center text-sm'>Hecho con ♥️ por Albert Escamilla.
-            <br />Sigueme en <span className='font-semibold'>LinkedIn:</span> <a href='http://linkedin.com/in/albertescam' rel='noopener noreferrer' className='hover:text-sky-500'>/in/albertescam/</a> o <span className='font-semibold'>Github:</span> <a href='http://github.com/albertesc' rel='noopener noreferrer' className='hover:text-sky-500'>github.com/albertesc</a>
+            <br />Sígueme en <span className='font-semibold'>LinkedIn:</span> <a href='http://linkedin.com/in/albertescam' rel='noopener noreferrer' className='hover:text-sky-500'>/in/albertescam/</a> o <span className='font-semibold'>Github:</span> <a href='http://github.com/albertesc' rel='noopener noreferrer' className='hover:text-sky-500'>github.com/albertesc</a>
           </p>
         </footer>
       </div>
